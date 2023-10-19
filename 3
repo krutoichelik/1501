@@ -1,0 +1,16 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+values = np.random.randint(1, 10, 7)
+
+print(values)
+
+labels = ['1', '2', '3', '4', '5', '6', '7']
+
+plt.bar(labels, values)
+
+plt.title('Столбчатый график')
+plt.xlabel('Столбцы')
+plt.ylabel('Значения')
+
+plt.show()
